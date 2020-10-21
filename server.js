@@ -1,6 +1,8 @@
-const io = require('socket.io')(3000)
+const io = require('socket.io')(3000);
 
 io.on('connection', socket => {
-    console.log('New user');
     socket.emit('chat-message', 'Hello world');
+    socket.on('send-chat-message', message => {
+        console.log(message);
+    });
 })
