@@ -4,7 +4,7 @@
   "description": "Build chat app with node.js && socket.io",
   "main": "index.js",
   "scripts": {
-    "startDev": "nodemon server.js"
+    "devStart": "nodemon server.js"
   },
   "author": "Nikolay_Chirkov",
   "license": "ISC",
