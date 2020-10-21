@@ -1,0 +1,17 @@
+{
+  "name": "chat_app_nodejs_socketio",
+  "version": "1.0.0",
+  "description": "Build chat app with node.js && socket.io",
+  "main": "index.js",
+  "scripts": {
+    "startDev": "nodemon server.js"
+  },
+  "author": "Nikolay_Chirkov",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
